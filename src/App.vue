@@ -18,13 +18,13 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import test from "./components/test.vue";
+import Test from "./components/Test.vue";
 
 export default {
   name: "app",
   components: {
     HelloWorld,
-    test
+    Test
   }
 };
 </script>

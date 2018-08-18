@@ -39,6 +39,7 @@ export default {
   },
   computed: {
     username() {
+      console.log(this.$route.params.username);
       // 我们很快就会看到 `params` 是什么
       return this.$route.params.username;
     }
